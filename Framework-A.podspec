@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "Framework-A"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.4"
   spec.summary      = "For use in demo"
 
   spec.description  = "Contains Printer for use in transitive dependency demonstration"
@@ -29,7 +29,7 @@ Pod::Spec.new do |spec|
   spec.vendored_frameworks = "Printer.framework"
   spec.source_files  = "Printer.framework/Headers/*.h"
   spec.exclude_files = "Classes/Exclude"
-  spec.dependency "Framework-B", "1.0.0"
-  spec.dependency "Framework-C", "1.0.1"
+  spec.dependency "Framework-B", "1.0.1"
+  spec.dependency "Framework-C", "1.0.2"
 
 end
